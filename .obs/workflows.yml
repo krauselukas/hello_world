@@ -3,7 +3,9 @@ workflow:
     - set_flags:
         flags:
           - type: build
-            status: disable
+            status: enable
             project: home:Admin
             architecture: x86_64
             repository: openSUSE_Tumbleweed
+  filters:
+    event: pull_request
