@@ -1,5 +1,5 @@
 Name:       hello_world
-Version:    5
+Version:    11111111111
 Release:    1
 Summary:    Most simple RPM package
 License:    MIT
