@@ -6,5 +6,5 @@ workflow:
   filters:
     branches:
       only:
-        - master
+        - test_branch
     event: tag_push
