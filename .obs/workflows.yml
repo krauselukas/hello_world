@@ -1,5 +1,5 @@
+version: 1.1
 workflow:
-  version: 1.1
   steps:                                                                                                                                                                                                                                           
     - trigger_services:                                                                                                                                                                                                                            
         project: home:krauselukas
