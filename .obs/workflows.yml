@@ -2,7 +2,7 @@ workflow:
   steps:                                                                                                                                                                                                                                           
     - submit_request:                                                                                                                                                                                                                            
         source_project: home:krauselukas
-        source_package: hello_world
+        source_package: %{SCM_REPOSITORY_NAME}
         target_project: test_project
         description: 'This is a test'
         
