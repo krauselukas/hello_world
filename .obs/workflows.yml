@@ -5,6 +5,4 @@ workflow:
         source_package: hello_world
         target_project: test_project
         description: 'This is a test'
-  filters:
-    event: pull_request
         
