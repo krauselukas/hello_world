@@ -1,6 +1,6 @@
 workflow:
   steps:                                                                                                                                                                                                                                           
     - link_project:                                                                                                                                                                                                                            
-        project: home:Admin
+        project: home:test_user
         project_to_link_against: openSUSE:Factory
         
